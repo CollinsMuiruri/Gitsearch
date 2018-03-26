@@ -7,7 +7,7 @@ export class PageService {
 
   private username: string;
   private clientid='537865c510c4d1068497';
-  private clientsecret='1210045d76ea04fec81298f7484351b1afda89ff';
+  private clientsecret='e2997640116c02ecad61bdf33160944eb6b2465d';
   constructor(private http:Http) {
     console.log("service working");
     this.username = "alchemy17";

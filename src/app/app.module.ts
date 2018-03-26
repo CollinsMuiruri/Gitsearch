@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
-import{PageService } from './user/page.service';
+import{PageService } from './pages/page.service';
 // import { Bootstrap } from '@angular/core'
 
 

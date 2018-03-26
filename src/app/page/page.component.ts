@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {PageService} from '../user/page.service';
+import {PageService} from '../pages/page.service';
 @Component({
   selector: 'app-page',
   templateUrl: './page.component.html',
