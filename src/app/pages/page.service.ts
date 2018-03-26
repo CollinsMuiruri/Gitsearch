@@ -3,7 +3,7 @@ import { Http} from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class GithubService {
+export class PageService {
 
   private username: string;
   private clientid='537865c510c4d1068497';
