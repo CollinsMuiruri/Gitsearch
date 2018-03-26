@@ -1,0 +1,22 @@
+<h1>Github Search Page</h1>
+<p>Where you can search for your Github page.</p>
+<hr>
+<!-- Name Form -->
+<div class="container">
+  <div class="row">
+
+
+<div class="form-group">
+  <input type="text" class="form-control" required>
+  <label for="name">Name</label>
+
+  <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+    <p> Name is Required</p>
+
+  </div>
+</div>
+  <button class="btn btn-success" (click)='toogleDetails(i)'>Search Account</button>
+<!-- api key e2997640116c02ecad61bdf33160944eb6b2465d -->
+</div>
+
+</div>
