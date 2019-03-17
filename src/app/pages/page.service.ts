@@ -6,11 +6,11 @@ import 'rxjs/add/operator/map';
 export class PageService {
 
   private username: string;
-  private clientid='537865c510c4d1068497';
-  private clientsecret='e2997640116c02ecad61bdf33160944eb6b2465d';
+  private clientid='4f8a27ae35957c057c07';
+  private clientsecret='acae2b29ac728e44f6eb9c4532dcb30eb9f022bf';
   constructor(private http:Http) {
     console.log("service working");
-    this.username = "alchemy17";
+    this.username = "CollinsMuiruri";
    }
    getUserInfo(){
      return this.http.get("https://api.github.com/users/" + this.username + "?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
@@ -25,3 +25,4 @@ export class PageService {
      this.username = username;
    }
    }
+   // 16343c4bc7e78f0d8ab3ce93de0f15a77f64104e

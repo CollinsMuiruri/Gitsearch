@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  apiUrl: "https://api.github.com/users/alchemy17/?access_token=e2997640116c02ecad61bdf33160944eb6b2465d"
-};    
+  apiUrl: "https://api.github.com/users/CollinsMuiruri/?access_token=acae2b29ac728e44f6eb9c4532dcb30eb9f022bf"
+};
